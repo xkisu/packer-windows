@@ -14,6 +14,10 @@ To allow Windows to access the virtual drives it needs to have the [VirtIO](http
 
 To do this, we mount the [latest stable ISO](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso) for the virtio-win drivers to the virtual machine.
 
+```bash
+$ wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.217-1/virtio-win-0.1.217.iso -P drivers/ 
+```
+
 TODO: Do we need to add a script to the answers file to install them automatically?
 
 # Building

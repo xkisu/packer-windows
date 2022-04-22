@@ -30,3 +30,8 @@
 .idea/httpRequests
 
 .DS_Store
+
+# Drivers should be downloaded using the
+# instructions in the READMD.
+drivers/*
+!drivers/.gitkeep
