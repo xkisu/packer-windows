@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="26d8cf5e-5475-453d-b342-f3ba037cf7bd" name="chaos.preshift.io">
+        <fileTransfer accessType="SFTP" host="chaos.preshift.io" port="22" sshConfigId="c7ca355c-1eca-409f-bd53-ab84520b0426" sshConfig="root@chaos.preshift.io:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
